@@ -8,7 +8,7 @@ from django.http import JsonResponse
 from .models import Chat
 import google.generativeai as genai
 from django.utils import timezone
-GOOGLE_API_KEY = 'AIzaSyCeH7JT9ZjFMifzbExZVWkB2RgfbJH8Tgg'
+GOOGLE_API_KEY = 'AIzaSyDl1UJ0tCP7RBbz1rBWraQRiLyyJPP8kJM'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
